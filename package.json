@@ -1,0 +1,22 @@
+{
+  "name": "event-propagation-path",
+  "version": "1.0.0",
+  "description": "Polyfill for the JavaScript Event path/composedPath property",
+  "main": "propagationPath.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DieterHolvoet/event-propagation-path.git"
+  },
+  "keywords": [
+    "event",
+    "path",
+    "composedPath",
+    "polyfill"
+  ],
+  "author": "Dieter Holvoet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DieterHolvoet/event-propagation-path/issues"
+  },
+  "homepage": "https://github.com/DieterHolvoet/event-propagation-path#readme"
+}
