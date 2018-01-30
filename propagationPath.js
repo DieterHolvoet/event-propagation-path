@@ -1,6 +1,6 @@
 Event.prototype.propagationPath = function propagationPath() {
     var polyfill = function () {
-        var element = this.target;
+        var element = this.target || null;
         var pathArr = [element];
 
         if (element === null || element.parentElement === null) {
