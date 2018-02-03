@@ -13,7 +13,7 @@ Event.prototype.propagationPath = function propagationPath() {
         }
 
         return pathArr;
-    };
+    }.bind(this);
 
     return this.path || (this.composedPath && this.composedPath()) || polyfill();
 };
