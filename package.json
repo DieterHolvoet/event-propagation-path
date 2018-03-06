@@ -1,6 +1,6 @@
 {
   "name": "event-propagation-path",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Polyfill for the JavaScript Event path/composedPath property",
   "main": "propagationPath.js",
   "repository": {
