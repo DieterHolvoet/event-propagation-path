@@ -3,11 +3,11 @@ Event.prototype.propagationPath = function propagationPath() {
         var element = this.target || null;
         var pathArr = [element];
 
-        if (element === null || element.parentElement === null) {
+        if (!element || !element.parentElement) {
             return [];
         }
 
-        while (element.parentElement !== null) {
+        while (!element.parentElement) {
             element = element.parentElement;
             pathArr.unshift(element);
         }
