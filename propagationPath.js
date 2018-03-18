@@ -7,7 +7,7 @@ Event.prototype.propagationPath = function propagationPath() {
             return [];
         }
 
-        while (!element.parentElement) {
+        while (element.parentElement) {
             element = element.parentElement;
             pathArr.unshift(element);
         }
