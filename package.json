@@ -14,7 +14,7 @@
     "polyfill"
   ],
   "author": "Dieter Holvoet",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/DieterHolvoet/event-propagation-path/issues"
   },
